@@ -7,3 +7,8 @@ document.getElementsByTagName('head')[0].appendChild(script);
 $( document ).ready(function() {
 	console.log('Custom scripts loaded');
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  // Code to be executed when the DOM is ready
+  console.log("Booyah baby");
+});
